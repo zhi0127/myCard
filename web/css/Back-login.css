@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-image: url("../image/background.jpeg");
+
+}
+
+#div1 {
+    background-color: rgba(161, 204, 112, 0.5);
+    width: 400px;
+    height: 300px;
+    margin: auto; /*块左右居中*/
+    margin-top: 100px; /*块距离顶部距离*/
+    text-align: center; /*内容居中*/
+    padding-top: 50px; /*块里面内容距离顶部距离*/
+    box-sizing: border-box; /*防止被扩撑*/
+    border-radius: 10px; /*圆角*/
+    box-shadow: 10px -10px 5px #3FAE57; /*阴影效果*/
+}
+
+form input {
+    line-height: 25px;
+    margin-top: 20px;
+    width: 150px;
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+
+input[type="text"], input[type="password"] {
+    font-size: 15px;
+    text-indent: 0.5em;
+
+}
+
+form label {
+    font-size: 25px;
+    line-height: 30px;
+    color: darkslategray;
+    text-shadow: 2px 2px antiquewhite;
+}
+
+input[type="submit"] {
+    background-color: #256821;
+    font-size: 18px;
+    border: 1px solid;
+    color: beige;
+}
+
+input[type="submit"]:hover {
+    background-color: #eb7350;
+    color: #e8e8e8;
+}
+
+input[type="submit"]:active {
+    background-color: #A03524;
+    color: #e8e8e8;
+}
+
+h2 {
+    color: #084b1f;
+}
+
+img {
+    width: 35px;
+}
+
+
+.code {
+    font-family: Arial;
+    font-style: italic;
+    color: Green;
+    border: 0;
+    padding: 2px 3px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+.unchanged {
+    border: 0;
+}

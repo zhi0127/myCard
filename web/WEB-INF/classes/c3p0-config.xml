@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <default-config>
+        <!-- 连接超时设置30秒 -->
+        <property name="checkoutTimeout">30000</property>
+        <!-- 30秒检查一次connection的空闲   -->
+        <property name="idleConnectionTestPeriod">30</property>
+        <!-- 初始化的池大小    -->
+        <property name="initialPoolSize">3</property>
+        <!-- 最多的一个connection空闲时间     -->
+        <property name="maxIdleTime">0</property>
+        <!-- 最多可以有多少个连接connection   -->
+        <property name="maxPoolSize">5</property>
+        <!-- 最少的池中有几个连接   -->
+        <property name="minPoolSize">1</property>
+        <!-- 批处理的语句   -->
+        <property name="maxStatements">50</property>
+        <!-- 每次增长几个连接   -->
+        <property name="acquireIncrement">4</property>
+    </default-config>
+
+    <!--    <named-config name="oracle">-->
+    <!--        <property name="driverClass">oracle.jdbc.OracleDriver</property>-->
+    <!--        <property name="jdbcUrl">jdbc:oracle:thin:@127.0.0.1:1521:orcl</property>-->
+    <!--        <property name="user">JX190616CARD</property>-->
+    <!--        <property name="password">JX190616CARD</property>-->
+    <!--    </named-config>-->
+    <named-config name="oracle">
+        <property name="driverClass">oracle.jdbc.OracleDriver</property>
+        <property name="jdbcUrl">jdbc:oracle:thin:@127.0.0.1:1521:orcl</property>
+        <property name="user">JX190616</property>
+        <property name="password">JX190616</property>
+    </named-config>
+
+</c3p0-config>

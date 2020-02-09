@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+
+}
+
+div {
+    background-color: rgba(161, 204, 112, 0.5);
+    width: 700px;
+    height: 300px;
+    margin: auto; /*块左右居中*/
+    margin-top: 100px; /*块距离顶部距离*/
+    text-align: center; /*内容居中*/
+    padding-top: 50px; /*块里面内容距离顶部距离*/
+    box-shadow: 10px -10px 5px #3FAE57; /*阴影效果*/
+
+}
+
+input {
+    /*line-height: 25px;*/
+    /*margin-top: 20px;*/
+    /*width: 150px;*/
+    /*font-size: 25px;*/
+    /*border-radius: 10px;*/
+
+}
+
+label {
+    /*line-height: 25px;*/
+    /*margin-top: 20px;*/
+    /*width: 150px;*/
+    /*font-size: 25px;*/
+    /*border-radius: 10px;*/
+}
